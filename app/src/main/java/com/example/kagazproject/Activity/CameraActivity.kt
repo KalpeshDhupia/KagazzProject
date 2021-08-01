@@ -1,4 +1,4 @@
-package com.example.kagazproject
+package com.example.kagazproject.Activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,8 +6,8 @@ import android.widget.Toast
 import androidx.camera.core.*
 import androidx.camera.lifecycle.ProcessCameraProvider
 import androidx.core.content.ContextCompat
+import com.example.kagazproject.R
 import kotlinx.android.synthetic.main.activity_camera.*
-import kotlinx.android.synthetic.main.activity_main.*
 import java.io.File
 
 class CameraActivity : AppCompatActivity() {

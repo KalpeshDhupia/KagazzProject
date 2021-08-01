@@ -1,7 +1,8 @@
-package com.example.kagazproject
+package com.example.kagazproject.Activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.kagazproject.R
 
 class PreviewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

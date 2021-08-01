@@ -3,6 +3,7 @@
     package="com.example.kagazproject">
 
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <uses-feature android:name="android.hardware.Camera.any" />
 
@@ -13,9 +14,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KagazProject">
-        <activity android:name=".CameraActivity"></activity>
-        <activity android:name=".PreviewActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activity.CameraActivity"></activity>
+        <activity android:name=".Activity.PreviewActivity" />
+        <activity android:name=".Activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
